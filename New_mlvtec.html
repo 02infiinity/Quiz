@@ -1,0 +1,962 @@
+
+<html>
+<head>
+<title>form_validation 
+</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<style>
+img{
+  max-width:100px;
+}
+</style>
+<body>
+
+<div class="container border">
+<center class="mt-5 mb-5"><h3>A.  Personal Details</h3></center>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputname1">Name</label>
+      <input type="text" class="form-control" id="inputname1" placeholder="Name">
+    </div>
+    <div class="form-group col-md-1">
+     
+    </div>
+  <div class="form-group col-md-4">
+         <label for="inputname2">Father's name</label>
+      <input type="text" class="form-control" id="inputname2" placeholder="Father's name">
+    </div>
+    <div class="form-group col-md-1">
+      
+    </div>
+ <div class="form-group col-md-2">
+      <label for="inputState">Category</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+  </div>
+
+ <div class="form-row">
+    <div class="form-group col-md-2">
+ <label class="form-check-label" for="inlineRadio">Gender</label>
+<div id="inlineRadio" class="mt-1">
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Male</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">Female</label>
+</div>
+</div>
+   </div>
+<div class="form-group col-md-1">
+</div>
+  <div class="form-group col-md-2">
+    <label for="inputname1">Date of birth</label>
+      <input type="date" class="form-control" id="inputname1" placeholder="DOB">
+    </div>
+<div class="form-group col-md-1">
+</div>
+  <div class="form-group col-md-6">
+    <label for="inputname1">E-mail</label>
+      <input type="email" class="form-control" id="inputname1" placeholder="E-mail id">
+    </div>
+    </div>
+<div class="form-row">
+<div class="form-group col-md-4">
+ <label for="inputname1">Mobile no.</label>
+      <input type="text" class="form-control" id="inputname1" placeholder="mobile no.">
+</div>
+<div class="form-group col-md-1">
+</div>
+<div class="form-group col-md-4">
+ <label for="inputname1">Landline no.</label>
+      <input type="text" class="form-control" id="inputname1" placeholder="landline no.">
+</div>
+<div class="form-group col-md-3">
+</div>
+</div>
+
+<h5 class="mt-3 mb-4">Permanent address</h5>
+<div class="form-row">
+<div class="form-group col-md-10">
+  <label for="email">Address</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter address">
+    </div>
+<div class="form-group col-md-2">
+ </div>
+</div>
+
+  <div class="form-row">
+     <div class="form-group col-md-2">
+      <label for="inputState">City</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+<div class="form-group col-md-1">
+</div>
+    <div class="form-group col-md-3">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+<div class="form-group col-md-1">
+</div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+ <div class="form-group col-md-1">
+</div>
+ <div class="form-group col-md-2">
+      <label for="inputState">Country</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+  </div>
+<h5 class="mt-3 mb-4">Local address</h5>
+<div class="form-row">
+<div class="form-group col-md-10">
+  <label for="email">Address</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter address">
+    </div>
+<div class="form-group col-md-2">
+ </div>
+</div>
+
+  <div class="form-row">
+     <div class="form-group col-md-2">
+      <label for="inputState">City</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+<div class="form-group col-md-1">
+</div>
+    <div class="form-group col-md-3">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+<div class="form-group col-md-1">
+</div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+ <div class="form-group col-md-1">
+</div>
+ <div class="form-group col-md-2">
+      <label for="inputState">Country</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+  </div>
+<div class="form-row mt-4">
+<div class="form-group col-md-4">
+  <label for="email">Enrollment No.</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter enrollment no.">
+</div>
+<div class="form-group col-md-8">
+
+</div>
+</div>
+<div class="form-row">
+ <div class="form-group col-md-3">
+      <label for="inputState">Branch</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+ <div class="form-group col-md-1">
+</div>
+ <div class="form-group col-md-3">
+      <label for="inputState">Semester</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+<div class="form-group col-md-1">
+</div>
+<div class="form-group col-md-2">
+<label for="customFile">Candidate image</label>
+ <div class="custom-file">
+    <input type="file" class="form-control-file" id="customFile" onchange="readURL(this);">
+</div>
+</div>
+<div class="form-group col-md-2">
+ <img id="blah" src="images.png" alt="your image" />
+</div>
+
+  </div>
+<hr>
+<!--personal details end -->
+<center class="mt-5 mb-5"><h3>B.  Academic Details</h3></center>
+<div class="row">
+<div class="col-md-1">
+</div>
+<div class="col-md-10">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Class/Semester</th>
+      <th scope="col">Percentage</th>
+      <th scope="col">No of Back (if any)</th>
+      <th scope="col">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1st</th>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td><select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+     <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+    <tr>
+      <th scope="row">2nd</th>
+     <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td><select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+    <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+      <tr>
+      <th scope="row">3rd</th>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td><select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+     <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+    <tr>
+      <th scope="row">4th</th>
+    <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td><select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+     <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+   <tr>
+      <th scope="row">5th</th>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td><select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+     <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+    <tr>
+      <th scope="row">6th</th>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td><select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+     <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+   <tr>
+      <th scope="row">7th</th>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td><select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+     <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr> 
+ <tr>
+      <th scope="row">8th</th>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td><select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+     <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr> 
+</tbody>
+</table>
+</div>
+</div>
+<div class="col-md-1">
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+</div>
+<div class="col-md-6">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Aggregate Percentage</th>
+      <th scope="col">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      
+      <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+      <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+     
+    </tr>
+</tbody>
+</table>
+</div>
+ </div>
+</div>
+
+<!--Academic details end -->
+
+<center class="mt-5 mb-5"><h3>C. Participation in Co-curricular activities</h3><h6 class="text-secondary">(NOTE: Don't include school level participation)</h6></center>
+<h5 class="mt-3 mb-4">i. National level activities</h5>
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Name of activities</th>
+      <th scope="col">Category</th>
+      <th scope="col">Year</th>
+      <th scope="col">Ranking</th>
+      <th scope="col">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<div class="col-md-8">
+</div>
+<div class="col-md-4">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+     
+    </tr>
+</tbody>
+</table>
+</div>
+ </div>
+</div>
+<h5 class="mt-3 mb-4">ii. State level activities</h5>
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Name of activities</th>
+      <th scope="col">Category</th>
+      <th scope="col">Year</th>
+      <th scope="col">Ranking</th>
+      <th scope="col">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<div class="col-md-8">
+</div>
+<div class="col-md-4">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+     
+    </tr>
+</tbody>
+</table>
+</div>
+ </div>
+</div>
+<h5 class="mt-3 mb-4">iii. District/college level activities</h5>
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Name of activities</th>
+      <th scope="col">Category</th>
+      <th scope="col">Year</th>
+      <th scope="col">Ranking</th>
+      <th scope="col">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<div class="col-md-8">
+</div>
+<div class="col-md-4">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+     
+    </tr>
+</tbody>
+</table>
+</div>
+ </div>
+</div>
+<!--activites details end -->
+
+<center class="mt-5 mb-5"><h3>E. </h3></center>
+<div class="form-group row">
+    <label for="inputEmail3" class="col-md-6 col-form-label">State if any disciplinary action has been taken against you till now</label>
+    <div class="col-md-3">
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Yes</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">No</label>
+</div>
+    </div>
+<div class="col-md-3">
+</div>
+  </div>
+<div class="form-group row">
+    <label for="inputEmail3" class="col-md-6 col-form-label">If yes, then mention the reason there of</label>
+    <div class="col-md-3">
+     <div class="form-group">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    </div>
+<div class="col-md-3">
+</div>
+  </div>
+<div class="row">
+<div class="col-md-8">
+</div>
+<div class="col-md-4">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+     
+    </tr>
+</tbody>
+</table>
+</div>
+ </div>
+</div>
+<center class="mt-5 mb-5"><h3>F. </h3></center>
+<div class="form-group row">
+    <label for="inputEmail3" class="col-md-6 col-form-label">State if you ever detained from the university exam due to short of attendance</label>
+    <div class="col-md-3">
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Yes</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">No</label>
+</div>
+    </div>
+<div class="col-md-3">
+</div>
+  </div>
+<div class="form-group row">
+    <label for="inputEmail3" class="col-md-6 col-form-label">If yes, then mention the reason there of</label>
+    <div class="col-md-3">
+     <div class="form-group">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+    </div>
+<div class="col-md-3">
+</div>
+  </div>
+<div class="row">
+<div class="col-md-8">
+</div>
+<div class="col-md-4">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+     
+    </tr>
+</tbody>
+</table>
+</div>
+ </div>
+</div>
+<center class="mt-3 mb-3 text-secondary"><h6>(NOTE: 10 marks will be deducted if candidate is found positive in condition mention in table E & F)</h6></center>
+
+<!--E & F details end -->
+
+<center class="mt-5 mb-5"><h3>G. Experience of Managing events/ activities</h3><h6 class="text-secondary">((Note: Only
+experience of organizing activities in college will be counted)</h6></center>
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Event Name and Description</th>
+      <th scope="col">Level</th>
+      <th scope="col">Year</th>
+      <th scope="col">Role</th>
+      <th scope="col">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td><input type="text" class="form-control" id="email" placeholder="%"></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+      <td> <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select></td>
+       <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<div class="col-md-8">
+</div>
+<div class="col-md-4">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th scope="col">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+     
+    </tr>
+</tbody>
+</table>
+</div>
+ </div>
+</div>
+<!-- end-->
+
+<table class="table table-bordered table-condensed mt-5">
+ <tbody>
+ <tr>
+<td>
+<center><h6 class="mt-2 mb-5">Declaration by applicants</h6></center>
+<div class="form-group row">
+<div class="col-md-1">
+I
+</div>
+<div class="col-md-4">
+<input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+</div>
+<div class="col-md-1">S/o / D/o
+</div>
+<div class="col-md-6">
+<input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+</div>
+</div>
+<div class="form-group row">
+<div class="col-md-12">
+<p>
+here by assure that all the details given above are correct to the best of my knowledge and belief.
+Any false information may lead to the disqualification of my candidature.</p>
+</div>
+</div>
+<div class="form-group row">
+ <label for="inputEmail3" class="col-md-1 col-form-label">Date</label>
+    <div class="col-md-3">
+     <input type="date" class="form-control" id="inputname1" placeholder="Date">
+    </div>  
+ <div class="col-md-3">
+     
+    </div> 
+ <label for="inputEmail3" class="col-md-1 col-form-label">Signature</label>
+    <div class="col-md-4">
+    <div class="custom-file">
+  <input type="file" class="custom-file-input" id="customFile">
+  <label class="custom-file-label" for="customFile">Choose file</label>
+</div>
+    </div>
+  </div>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--declaration end-->
+<div class="mt-5 mb-3">
+<h3 class="mt-5">Compulsory Attachments:</h3>
+<h6 class="mt-3">i) Copies of Mark sheets</h6>
+<h6>ii) Copies of certificates</h6>
+</div>
+<!--copies end-->
+<center><h3 class="mt-5">Grand total</h3></center>
+<div class="table-responsive">
+<table class="table table-bordered table-condensed mt-5 mb-3">
+  <thead>
+    <tr>
+      <th scope="col">Table</th>
+      <th scope="col">B</th>
+      <th scope="col">C(i)</th>
+      <th scope="col">C(ii)</th>
+      <th scope="col">c(iii)</th>
+      <th scope="col">E</th>
+      <th scope="col">F</th>
+      <th scope="col">G</th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <th scope="row">Scores</th>
+     <td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+<td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+<td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+<td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+<td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+<td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+<td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+<td><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+     <td colspan="8" align="right">Interview Score (To Be Filled by Interview Panel)</td>
+     <td ><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+ <tr>
+      <td colspan="8" align="right">Grand total</td>
+     <td ><input class="form-control" type="text" placeholder="Readonly input here…" readonly></td>
+    </tr>
+
+</tbody>
+</table>
+</div>
+  <button type="submit" class="btn btn-primary mt-4">Submit</button>
+</form>
+</div>
+<script>
+     function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+</script>
+</body>
+</html>
+
+
+
+
+
